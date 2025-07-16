@@ -1,62 +1,10 @@
 // // Flatten nested array
 // // Input: [1, [2, [3]]] → Output: [1,2,3]
 
-// Check if year is a leap year
-// Input: 2024 → Output: true
+function Flatten(arr) {
+    return arr.flat(Infinity);
+}
 
-// Check if number is palindrome
-// Input: 121 → Output: true
-
-// Count number of digits in a number
-// Input: 1000 → Output: 4
-
-// Check if number is an Armstrong number
-// Input: 153 → Output: true
-
-// Convert Celsius to Fahrenheit
-// Input: 0 → Output: 32
-
-// Find LCM of two numbers
-// Input: 4, 5 → Output: 20
-
-// Find GCD of two numbers
-// Input: 8, 12 → Output: 4
-
-// Print a triangle of stars
-// Input: 3 → Output:\n*\n*\n**
-
-// Print multiplication table
-// Input: 3 → Output: 3 6 9 12 15 18 21 24 27 30
-
-// Check if a number is a power of 2
-// Input: 8 → Output: true
-
-// Convert decimal to binary
-// Input: 5 → Output: "101"
-
-// Convert binary to decimal
-// Input: "101" → Output: 5
-
-// Count even digits in a number
-// Input: 248 → Output: 3
-
-// Find sum of squares of digits
-// Input: 123 → Output: 14
-
-// Generate a random number between 1 and 10
-// Output: 7 (example)
-
-// Check if number is divisible by 3 and 5
-// Input: 15 → Output: true
-
-// Remove even numbers from array
-// Input: [1,2,3,4] → Output: [1,3]
-
-// Sum numbers from 1 to n
-// Input: 5 → Output: 15
-
-// Find number of trailing zeros in factorial
-// Input: 10 → Output: 2
-
-// Find all divisors of a number
-// Input: 6 → Output: [1, 2, 3, 6]
+const arr = [1, [2, [3]]];
+const result = Flatten(arr);
+console.log(result);
