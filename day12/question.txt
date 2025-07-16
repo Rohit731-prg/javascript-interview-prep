@@ -57,3 +57,14 @@ Input: 10 → Output: 2
 
 Find all divisors of a number
 Input: 6 → Output: [1, 2, 3, 6]
+
+
+EMAIL = rohitsingha.bca@gmail.com
+PASSWORD = lcrojbnyjnmsneja
+
+CLOUDINARY_NAME=dbuftgoaf
+CLOUDINARY_KEY=997493258123784
+CLOUDINARY_SEC=6Ibd8Zr_QKx5VPFm2qeLdb81g4I
+
+JWT_CODE=rohit1234567890
+NODE_ENV=development
